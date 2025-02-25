@@ -9,7 +9,7 @@ helpful_links = [
     "https://docs.snowflake.com/en/release-notes/streamlit-in-snowflake"
 ]
 
-cnx= st.sonnection("snowflake")
+cnx= st.connection("snowflake")
 session = cnx.session()
 
 # Write directly to the app
