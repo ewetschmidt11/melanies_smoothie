@@ -16,7 +16,7 @@ session = cnx.session()
 st.title("Customize Your Smoothie! :cup_with_straw:")
 st.write("Choose the fruits you want in your custom Smoothie")
 
-session = get_active_session()
+#session = get_active_session()
 
 name_on_order = st.text_input("Name on Smoothie")
 st.write("The name on the Smoothie will be:", name_on_order)
