@@ -11,6 +11,9 @@ helpful_links = [
     "https://docs.snowflake.com/en/release-notes/streamlit-in-snowflake"
 ]
 
+cnx= st.sonnection("snowflake")
+session = cnx.session()
+
 # Write directly to the app
 st.title("Customize Your Smoothie! :cup_with_straw:")
 st.write("Choose the fruits you want in your custom Smoothie")
